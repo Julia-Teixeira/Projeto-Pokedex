@@ -1,0 +1,61 @@
+:root{
+
+  /* Color Types */
+  --rock: #B69E31;
+  --ghost: #70559B;
+  --steel: #B7B9D0;
+  --water: #6493EB;
+  --grass: #74CB48;
+  --psychic: #FB5584;
+  --ice: #9AD6DF;
+  --dark: #75574C;
+  --fairy: #E69EAC;
+  --normal: #AAA67F;
+  --fighting: #C12239;
+  --flying: #A891EC;
+  --poison: #A43E9E;
+  --ground: #DEC16B;
+  --bug: #A7B723;
+  --fire: #F57D31;
+  --electric: #F9CF30;
+  --dragon: #7037FF;
+
+  /* Color Gray Scale */
+  --darckGray: #212121;
+  --mediumGray: #666666;
+  --lightGray: #E0E0E0;
+  --white: #ffffff;
+  --background: #F7F7F7;
+
+   /* Font Size */
+   --size-8: .5rem;
+   --size-10: .625rem;
+   --size-12: .75rem;
+   --size-14: .875rem;
+   --size-24: 1.5rem;
+
+  /* Line Height */
+  --height-12: .75rem;
+  --height-16: 1rem;
+  --height-32: 2rem;
+
+}
+
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url('../fonts/Poppins-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 100vw;
+  max-height: 100vh;
+}

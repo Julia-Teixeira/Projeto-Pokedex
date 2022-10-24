@@ -1,0 +1,72 @@
+body{
+  background-color: var(--background);
+  padding: 1.5rem 1rem !important;
+}
+
+.cabecalho{
+  width:100%;
+  height: 2rem;
+  text-align: center;
+}
+.pokeboll-cabecalho{
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.nav-cabecalho{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  align-items: center;
+}
+.nav-cabecalho > h1 {
+  width: 65%;
+  text-align: left;
+}
+.filter{
+  width: 1.25rem;
+  height: 2rem;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.filterName{
+  background-image: url(../img/filter_name.svg) !important;
+}
+.filterNumber{
+  background-image: url(../img/filter_number.svg);
+}
+
+.lista-pokemons{
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  width: 100%;
+}
+.pokemon{
+  width: 29vw;
+  height: 7rem;
+  cursor: pointer;
+}
+
+.pokemon > .div-down{
+  border-radius: 0 0 .5rem .5rem; 
+  text-align: center;
+  color: var(--white);
+  text-transform: capitalize;
+}
+.pokemon > .div-up{
+  border-radius: .5rem .5rem 0 0; 
+}
+.pokemon > .div-up > p{
+  text-align: right;
+  padding: .25rem .5rem 0;
+}
+.pokemon > .div-up > img{
+  margin: 0 auto;
+  width: 4.5rem;
+  height: 4.5rem;
+  display: flex;
+  justify-items: center;
+}

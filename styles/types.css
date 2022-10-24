@@ -1,0 +1,134 @@
+.type{
+  height: 1.25rem;
+  padding: .125rem .5rem;
+  border-radius: .625rem;
+  color: var(--white);
+}
+
+.type-normal-background{
+  background-color: var(--normal);
+}
+.type-fighting-background{
+  background-color: var(--fighting);
+}
+.type-flying-background{
+  background-color: var(--flying);
+}
+.type-ground-background{
+  background-color: var(--ground);
+}
+.type-poison-background{
+  background-color: var(--poison);
+}
+.type-rock-background{
+  background-color: var(--rock);
+}
+.type-bug-background{
+  background-color: var(--bug);
+}
+.type-ghost-background{
+  background-color: var(--ghost);
+}
+.type-steel-background{
+  background-color: var(--steel);
+}
+.type-fire-background{
+  background-color: var(--fire);
+}
+.type-water-background{
+  background-color: var(--water);
+}
+.type-grass-background{
+  background-color: var(--grass);
+}
+.type-electric-background{
+  background-color: var(--electric);
+}
+.type-psychic-background{
+  background-color: var(--psychic);
+}
+.type-ice-background{
+  background-color: var(--ice);
+}
+.type-dragon-background{
+  background-color: var(--dragon);
+}
+.type-dark-background{
+  background-color: var(--dark);
+}
+.type-fairy-background{
+  background-color: var(--fairy);
+}
+
+.type-normal-border-color{
+  color: var(--normal);
+  border: .0625rem solid var(--normal);
+}
+.type-fighting-border-color{
+  color: var(--fighting);
+  border: .0625rem solid var(--fighting);
+}
+.type-flying-border-color{
+  color: var(--flying);
+  border: .0625rem solid var(--flying);
+}
+.type-ground-border-color{
+  color: var(--ground);
+  border: .0625rem solid var(--ground);
+}
+.type-poison-border-color{
+  color: var(--poison);
+  border: .0625rem solid var(--poison);
+}
+.type-rock-border-color{
+  color: var(--rock);
+  border: .0625rem solid var(--rock);
+}
+.type-bug-border-color{
+  color: var(--bug);
+  border: .0625rem solid var(--bug);
+}
+.type-ghost-border-color{
+  color: var(--ghost);
+  border: .0625rem solid var(--ghost);
+}
+.type-steel-border-color{
+  color: var(--steel);
+  border: .0625rem solid var(--steel);
+}
+.type-fire-border-color{
+  color: var(--fire);
+  border: .0625rem solid var(--fire);
+}
+.type-water-border-color{
+  color: var(--water);
+  border: .0625rem solid var(--water);
+}
+.type-grass-border-color{
+  color: var(--grass);
+  border: .0625rem solid var(--grass);
+}
+.type-electric-border-color{
+  color: var(--electric);
+  border: .0625rem solid var(--electric);
+}
+.type-psychic-border-color{
+  color: var(--psychic);
+  border: .0625rem solid var(--psychic);
+}
+.type-ice-border-color{
+  color: var(--ice);
+  border: .0625rem solid var(--ice);
+}
+.type-dragon-border-color{
+  color: var(--dragon);
+  border: .0625rem solid var(--dragon);
+}
+.type-dark-border-color{
+  color: var(--dark);
+  border: .0625rem solid var(--dark);
+}
+.type-fairy-border-color{
+  color: var(--fairy);
+  border: .0625rem solid var(--fairy);
+}

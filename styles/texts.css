@@ -1,0 +1,48 @@
+.text-regular{
+  font-family: 'Poppins-Regular';
+}
+.text-bold{
+  font-family: 'Poppins-Bold';
+}
+
+.text-regular-8{
+  font-size: var(--size-8);
+  line-height: var(--height-12);
+}
+.text-regular-10{
+  font-size: var(--size-10);
+  line-height: var(--height-16);
+}
+.text-regular-12{
+  font-size: var(--size-12);
+  line-height: var(--height-16);
+}
+.text-regular-14{
+  font-size: var(--size-14);
+  line-height: var(--height-16);
+}
+.text-regular-24{
+  font-size: var(--size-24);
+  line-height: var(--height-32);
+}
+
+.text-bold-8{
+  font-size: var(--size-8);
+  line-height: var(--height-12);
+}
+.text-bold-10{
+  font-size: var(--size-10);
+  line-height: var(--height-16);
+}
+.text-bold-12{
+  font-size: var(--size-12);
+  line-height: var(--height-16);
+}
+.text-bold-14{
+  font-size: var(--size-14);
+  line-height: var(--height-16);
+}
+.text-bold-24{
+  font-size: var(--size-24);
+  line-height: var(--height-32);
+}
