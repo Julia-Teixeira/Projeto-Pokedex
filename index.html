@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="styles/globalStyles.css">
   <link rel="stylesheet" href="styles/index.css">
   <link rel="stylesheet" href="styles/inputs.css">
+  <link rel="stylesheet" href="styles/modal.css">
   <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/texts.css">
   <link rel="stylesheet" href="styles/types.css">
@@ -15,8 +16,8 @@
   
   <title>Pokédex</title>
 </head>
-<body class="container">
-  <header class="cabecalho">
+<body>
+  <header class="cabecalho container">
     <nav class="nav-cabecalho">
 
         <img src="img/Pokeball.svg" alt="Pokebola" class="pokeboll-cabecalho">
@@ -25,12 +26,14 @@
 
     </nav>
   </header>
-    <input type="search" class="search text-regular text-regular-10" placeholder="Procurar">
+    
 
-    <main>
+    <main class="container">
+      <input type="search" class="search text-regular text-regular-10" placeholder="Procurar">
       <ul class="lista-pokemons">
      
       </ul>
+      <button class="btnCarregar">Carregar mais pokemons</button>
     </main>
     <script src="script/index.js" type="module"></script>
 </body>

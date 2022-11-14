@@ -15,8 +15,24 @@
 }
 
 .search:focus{
-  background-position-x: 2%;
+  background-position-x: 1%;
   text-align: left;
-  padding-left: 1.2rem;
-  outline: .0625rem solid var(--lightGray);;
+  padding-left: 2rem;
+  outline: .0625rem solid var(--lightGray);
+}
+
+@media (min-width: 476px){
+  .search{
+    width: 328px;
+    height: 50px;
+    background-position-x: 35.1%;
+    font-size: var(--size-14) !important;
+    background-size: 4%;
+  }
+  .search:focus{
+    background-position-x: 4%;
+    text-align: left;
+    padding-left: 2rem;
+    outline: .0625rem solid var(--lightGray);
+  }
 }

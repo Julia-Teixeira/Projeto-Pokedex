@@ -3,6 +3,7 @@
   padding: .125rem .5rem;
   border-radius: .625rem;
   color: var(--white);
+  text-transform: capitalize;
 }
 
 .type-normal-background{
