@@ -1,12 +1,13 @@
 body{
   background-color: var(--background);
-  padding: 1.5rem 1rem !important;
+  position: relative;
 }
 
 .cabecalho{
   width:100%;
   height: 2rem;
   text-align: center;
+  padding-top: 2rem;
 }
 .pokeboll-cabecalho{
   width: 1.5rem;
@@ -17,6 +18,7 @@ body{
   justify-content: space-evenly;
   gap: 1rem;
   align-items: center;
+ 
 }
 .nav-cabecalho > h1 {
   width: 65%;
@@ -41,23 +43,32 @@ body{
 .lista-pokemons{
   display: flex;
   flex-wrap: wrap;
-  gap: .5rem;
+  gap: 1rem;
   width: 100%;
+  margin-bottom: 2rem;
 }
 .pokemon{
   width: 6.5rem;
   height: 7rem;
   cursor: pointer;
+  border-radius: .5rem ; 
+  position: relative;
 }
 
-.pokemon > .div-down{
+.div-down{
+  height: 1rem;
   border-radius: 0 0 .5rem .5rem; 
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: var(--white);
   text-transform: capitalize;
+  position: relative;
+  bottom: 0;
 }
 .pokemon > .div-up{
-  border-radius: .5rem .5rem 0 0; 
+  border-radius: .5rem ; 
+  height: 100%;
 }
 .pokemon > .div-up > p{
   text-align: right;
@@ -65,8 +76,34 @@ body{
 }
 .pokemon > .div-up > img{
   margin: 0 auto;
-  width: 4.5rem;
-  height: 4.5rem;
+  width: 72%;
+  height: 72%;
   display: flex;
   justify-items: center;
+}
+
+.btnCarregar{
+  width: 100%;
+  height: 2rem;
+}
+
+@media (min-width: 476px){
+  .nav-cabecalho{
+    justify-content: space-between;
+  }
+  .pokemon{
+    width: calc((100% - 32px)/3);
+    height: 200px;
+  }
+  .pokemon > .div-up > p{
+    font-size: var(--size-14);
+  }
+  .div-down > p{
+    font-size: var(--size-14);
+    line-height: var(--height-32);
+  }
+  .pokemon > .div-up > img{
+    width: 82%;
+    height: 84%;
+  }
 }
